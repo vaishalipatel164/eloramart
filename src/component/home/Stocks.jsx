@@ -15,7 +15,7 @@ import masalaoilmore from "../../assets/masalaoilmore.avif";
 import saucesspreads from "../../assets/saucesspreads.avif";
 import chickenmeatfish from "../../assets/chickenmeatfish.avif";
 import organichealthyliving from "../../assets/organichealthyliving.avif";
-import babycare from "../../assets/BabyCare.avif";
+import babycare from "../../assets/babycare.avif";
 import pharmawellness from "../../assets/pharmawellness.avif";
 import cleaningessentials from "../../assets/cleaningessentials.avif";
 import homeoffice from "../../assets/homeoffice.avif";
