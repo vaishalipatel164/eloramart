@@ -1,13 +1,120 @@
 import React from "react";
 
+import teaa from "../../assets/teaa.avif"
+import teab from "../../assets/teab.avif"
+import teac from "../../assets/teac.avif"
+import tead from "../../assets/tead.avif"
+import teae from "../../assets/teae.avif"
+import teaf from "../../assets/teaf.avif"
+import teag from "../../assets/teag.avif"
+import teah from "../../assets/teah.avif"
+import teai from "../../assets/teai.avif"
+import teaj from "../../assets/teaj.avif"
+import teak from "../../assets/teak.avif"
+import teal from "../../assets/teal.avif"
+import team from "../../assets/team.avif"
+import tean from "../../assets/tean.avif"
+import teao from "../../assets/teao.avif"
+
 function TeaCoffeeProducts() {
   const card = [
     {
-      image: energyd,
-      name: "",
-      weight: "",
-      price: "₹",
-      delprice: "₹",
+      image: teaa,
+      name: "Brooke Bond Red Label Tea- 250 g",
+      weight: "250 g",
+      price: "₹130",
+    },
+     {
+      image: teab,
+      name: "Brooke Bond Taaza Tea 250 g",
+      weight: "250 g",
+      price: "₹60",
+    },
+      {
+      image: teac,
+      name: "Tata Tea Premium Tea",
+      weight: "250 g",
+      price: "₹130",
+    },
+      {
+      image: tead,
+      name: "Tata Tea Agni Elaichi Tea",
+      weight: "250 g",
+      price: "₹75",
+    },
+      {
+      image: teae,
+      name: "Maharani Premium Tea",
+      weight: "500 g",
+      price: "₹230",
+      delprice: "₹260",
+    },
+      {
+      image: teaf,
+      name: "Tata Tea Gold",
+      weight: "250 g",
+      price: "₹185",
+    },
+      {
+      image: teag,
+      name: "Sleepy Owl Assorted Instant Coffee",
+      weight: "10 pcs",
+      price: "₹99",
+      delprice: "₹140",
+    },
+      {
+      image: teah,
+      name: "Nescafe Classic- 100% Pure Instant Coffee...",
+      weight: "24 g",
+      price: "₹124",
+    },
+      {
+      image: teai,
+      name: "Nescafe Classic- 100% Pure Instant Coffee...",
+      weight: "45 g",
+      price: "₹210",
+      delprice: "₹235",
+    },
+      {
+      image: teaj,
+      name: "Sleepy Owl Xpresso Intense Java Instant...",
+      weight: "30 pcs",
+      price: "₹100",
+      delprice: "₹150",
+    },
+      {
+      image: teak,
+      name: "Bevzilla Hazelnut Instant Coffee Powder...",
+      weight: "75 g",
+      price: "₹183",
+      delprice: "₹199",
+    },
+      {
+      image: teal,
+      name: "Nescafe Classic Pure Instant Coffee",
+      weight: "30 x 2.2 g",
+      price: "₹135",
+      delprice: "₹150",
+    },
+     {
+      image: team,
+      name: "Wagh Bakri Sudh Kahwa Green Tea",
+      weight: "25 pcs",
+      price: "₹149",
+      delprice: "₹300",
+    },
+     {
+      image: tean,
+      name: "Lipton Honey Lemon Green Tea Bags",
+      weight: "25 pcs",
+      price: "₹190",
+      delprice: "₹200",
+    },
+     {
+      image: teao,
+      name: "Girnar Detox Desi Kahwa",
+      weight: "10 pcs",
+      price: "₹100",
     },
   ];
   return (

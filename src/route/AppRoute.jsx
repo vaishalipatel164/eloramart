@@ -15,6 +15,8 @@ import BreakfastFood from "../component/stocksproducts/BreakfastFood";
 import SweetTooth from "../component/stocksproducts/SweetTooth";
 import TeaCoffeeProducts from "../component/stocksproducts/TeaCoffeeProducts";
 import AttaRiceProduct from "../component/stocksproducts/AttaRiceProduct";
+import MasalaProduct from "../component/stocksproducts/MasalaProduct";
+import SaucesProduct from "../component/stocksproducts/SaucesProduct";
 
 function AppRoute() {
   return (
@@ -36,6 +38,8 @@ function AppRoute() {
            <Route path="/sweettooth" element={<SweetTooth />} />
            <Route path="/teacoffeeproduct" element={<TeaCoffeeProducts />} />
            <Route path="/attariceproduct" element={<AttaRiceProduct />} />
+           <Route path="/masalaproduct" element={<MasalaProduct />} />
+           <Route path="/saucesproduct" element={<SaucesProduct />} />
         </Routes>
       </Router>
     </>

@@ -66,11 +66,11 @@ function Stocks() {
     },
     {
       image: masalaoilmore,
-      link: "",
+      link: "/masalaproduct",
     },
     {
       image: saucesspreads,
-      link : ""
+      link : "/saucesproduct"
     },
     {
       image: chickenmeatfish,
