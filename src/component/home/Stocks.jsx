@@ -74,11 +74,11 @@ function Stocks() {
     },
     {
       image: chickenmeatfish,
-      link: "",
+      link: "/nonvegproduct",
     },
     {
       image: organichealthyliving,
-      link: "",
+      link: "/attariceproduct",
     },
     {
       image: babycare,
@@ -90,7 +90,7 @@ function Stocks() {
     },
     {
       image: cleaningessentials,
-      link: "",
+      link: "/cleaningproduct",
     },
     {
       image: homeoffice,
