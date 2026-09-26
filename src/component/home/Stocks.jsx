@@ -94,11 +94,11 @@ function Stocks() {
     },
     {
       image: homeoffice,
-      link: "",
+      link: "/homeproduct",
     },
     {
       image: personalcare,
-      link: "",
+      link: "/cosmeticproduct",
     },
     {
       image: petcarefood,

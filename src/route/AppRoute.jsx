@@ -19,6 +19,9 @@ import MasalaProduct from "../component/stocksproducts/MasalaProduct";
 import SaucesProduct from "../component/stocksproducts/SaucesProduct";
 import NonVegProduct from "../component/stocksproducts/NonVegProduct";
 import CleaningProduct from "../component/stocksproducts/CleaningProduct";
+import HomeProduct from "../component/stocksproducts/HomeProduct";
+import CosmeticProduct from "../component/stocksproducts/CosmeticProduct";
+import Footer from "../widgets/footer/Footer";
 
 function AppRoute() {
   return (
@@ -44,7 +47,10 @@ function AppRoute() {
            <Route path="/saucesproduct" element={<SaucesProduct />} />
            <Route path="/nonvegproduct" element={<NonVegProduct />} />
            <Route path="/cleaningproduct" element={<CleaningProduct />} />
+           <Route path="/homeproduct" element={<HomeProduct />} />
+           <Route path="/cosmeticproduct" element={<CosmeticProduct />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
