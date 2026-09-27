@@ -8,7 +8,7 @@ function Footer() {
         <section className="m-2 ">
             <div className="flex justify-center gap-10 font-serif text-[16px]">
                 <div className="">
-                    <h2 className="py-5">Useful Links</h2>
+                    <h2 className="py-5 font-semibold">Useful Links</h2>
                     <div className="flex gap-24">
                         <div>
                             <ul className="leading-8">
@@ -42,7 +42,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="">
-                    <h2 className="py-5">Categories See all</h2>
+                    <h2 className="py-5 font-semibold cursor-pointer">Categories See all</h2>
                     <div className="flex gap-24">
                         <div>
                             <ul className="leading-8">
